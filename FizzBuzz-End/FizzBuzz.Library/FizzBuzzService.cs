@@ -2,9 +2,9 @@
 {
     public class FizzBuzzService
     {
-        public string Calculate(int n) 
+        public string Print(int n) 
         {
-            return "1";
+            return null;
         }
     }
 }

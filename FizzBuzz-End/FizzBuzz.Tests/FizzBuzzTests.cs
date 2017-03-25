@@ -12,12 +12,5 @@ namespace FizzBuzz.Tests
         {
             _fizzBuzz = new FizzBuzzService();
         }
-
-        [TestMethod]
-        public void ShouldPrintNumber()
-        {
-            var result = _fizzBuzz.Calculate(1);
-            Assert.AreEqual("1", result);
-        }
     }
 }
